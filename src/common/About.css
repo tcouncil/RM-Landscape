@@ -1,0 +1,22 @@
+/* About Section Styling */
+.about-section {
+    background-color: #f4f0e5; /* Soft beige background */
+    color: #006a44; /* Deep green text color */
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 800px; /* Keeps content well-contained */
+  }
+  

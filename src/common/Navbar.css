@@ -1,0 +1,42 @@
+/* Navbar Styling */
+.breadcrumb-nav {
+    background-color: #f4f0e5; /* Soft beige background */
+    padding: 10px 20px;
+    border-bottom: 2px solid #a3c99c; /* Earthy green border */
+  }
+  
+  .breadcrumb-list {
+    list-style: none;
+    display: flex;
+    gap: 25px; /* Space between breadcrumb items */
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .breadcrumb-item {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #575757; /* Neutral text color */
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-item h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; /* Remove default margin to maintain alignment */
+    color: #006a44; /* Deep green for headline */
+  }
+  
+  .breadcrumb-link {
+    text-decoration: none;
+    color: #006a44; /* Link color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .breadcrumb-link:hover {
+    color: #a3c99c; /* Light green hover effect */
+  }
+  
